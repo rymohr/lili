@@ -31,6 +31,10 @@
         font-size: 16px;
       }
 
+      h1 {
+        font-size: 2rem !important;
+      }
+
       .galleria {
         margin: 0 auto;
         width: 700px;
@@ -44,6 +48,12 @@
 
       .galleria-theme-classic .galleria-counter {
         color: inherit;
+      }
+
+      .cb-logo {
+        display: block;
+        margin: 0 auto;
+        width: 140px;
       }
 
       .intro {
@@ -60,15 +70,30 @@
         max-width: 700px;
       }
 
-      img {
+      .galleria img {
         cursor: pointer;
+      }
+
+      .credits {
+        margin: 5rem 0;
+        color: #aaa;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+
+      .credits p {
+        margin: 1rem 0;
       }
     </style>
   </head>
 
   <body>
+    <img class="cb-logo" src="images/coldwell-banker.png" />
+
     <div class="intro">
-      <h3>225 Liliuokalani Ave 4C</h3>
+      <h1>225 Liliuokalani Ave 4C</h1>
 
       <p>
         Charming <strong>2 bed / 1 bath plus office</strong> in the heart of Waikiki.<br/>
@@ -163,6 +188,11 @@
         Aloha!<br/>
         - Ryan and Heather
       </p>
+    </div>
+
+    <div class="credits">
+      <p>Photos by</p>
+      <a href="http://freedomedia.us" target="_blank"><img src="images/freedomedia.png" /></a>
     </div>
 
     <script>
